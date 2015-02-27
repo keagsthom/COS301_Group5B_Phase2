@@ -110,27 +110,98 @@ u13134885
 \setcounter{chapter}{1}
 \renewcommand{\thesection}{\arabic{section}}
 
-
-
-\section{Functional requirements and application design}
-
-\texttt{5.1 Use case prioritization}
+\section{System Overview}
+\texttt{The BuzzSystem aims to enhance the learning process by providing a platform in which Lecturers, Tutors and Students can discuss concepts covered in class in a more user friendly manner which is appealing to students; consequently this will deepen their understanding of the concepts and improve their overall performance. 
 \emph{}\\
-\emph{}\\
-\texttt{5.2 Use case/Services contracts}
-\emph{}\\
-\emph{}\\
-\texttt{5.3 Required functionality}
-\emph{}\\
-\emph{}\\
-\texttt{5.4 Process specifications}
-\emph{}\\
-\emph{}\\
-\texttt{5.5 Domain Model}
+This is achieved by introducing social networking elements such as tagging and gaming abilities such as earning points, because of these introductions  the system will not only encourage competitiveness but also provide reporting functionalities which will indicate the performance of individual users and the system as a whole. 
+}
 
 \newpage
-\section{Open Issues}
+\section{Functional requirements and application design}
 
+\subsection{Use case prioritization}
+
+\textbf{Critical}
+\begin{itemize}
+	\item UserManagement
+	\item Posting
+	\item BuzzSpace
+\end{itemize}
+
+\textbf{Important}
+\begin{itemize}
+	\item Category
+	\item Vote
+	\item Important
+\end{itemize}
+
+\textbf{Nice to Have}
+\begin{itemize}
+	\item tagging
+	\item Rewarding
+\end{itemize}
+
+\subsection{Use case/Services contracts}
+\includegraphics[width=1\textwidth]{./Use_case_A.png}\\[0.4cm]
+\includegraphics[width=1\textwidth]{./Use_case_B.png}\\[0.4cm] 
+\includegraphics[width=1\textwidth]{./Use_case_C.png}\\[0.4cm]
+
+\newpage
+\subsection{Required functionality}
+\textsc{Social Tag}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./socialtag.jpg}\\[0.4cm]
+
+\textsc{Rewarding}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./Use_Case_Diagram_RewardUser.jpg}\\[0.4cm] 
+
+\newpage
+\textsc{UserManagement}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./Activity_Diagram_UserManagement.jpg}\\[0.4cm]
+
+
+\textsc{Vote}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./Use_Case_Diagram_Vote.jpg}\\[0.4cm]
+
+\newpage
+\textsc{threads}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./uthreads.jpg}\\[0.4cm]  
+
+\textsc{Reporing}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./Activity_Diagram_CreateCategory.jpg}\\[0.4cm]
+
+
+\newpage
+\subsection{Process specifications}
+ 
+\textsc{Login}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./Activity_Diagram_Login.jpg}\\[0.4cm]  
+
+\textsc{Rewarding}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./Activity_Diagram_RewardSystem.jpg}\\[0.4cm]
+\includegraphics[width=1\textwidth]{./Activity_Diagram_RewardUser.jpg}\\[0.4cm] 
+
+\newpage
+\textsc{UserManagement}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./Use_Case_Diagram_UserManagement.jpg}\\[0.4cm] 
+
+\newpage
+\textsc{UserLevel}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./Activity_Diagram_UserLevel.jpg}\\[0.4cm]
+
+\newpage
+\subsection{Domain Model}
+\emph{}\\
+\includegraphics[width=1\textwidth]{./final_domain_model_a.jpg}\\[0.4cm]
 
 
 \end{document}
