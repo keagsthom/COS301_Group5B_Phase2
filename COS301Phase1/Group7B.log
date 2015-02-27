@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  27 FEB 2015 20:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.21)  27 FEB 2015 22:09
 entering extended mode
 **Group7B.tex
 (C:\Users\Diana\Desktop\MiniProject\phase1\COS301Phase1\Group7B.tex
@@ -343,189 +343,153 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Diana/Desktop/Mi
 niProject/phase1/COS301Phase1/up-logo.jpg>]
-Overfull \hbox (16.21973pt too wide) in paragraph at lines 117--118
-\OT1/cmtt/m/n/12 The BuzzSystem aims to enhance the learning process by providi
-ng a platform
+<./Url.png, id=10, 516.42938pt x 77.53969pt>
+File: ./Url.png Graphic file (type png)
+ <use ./Url.png>
+Package pdftex.def Info: ./Url.png used on input line 120.
+(pdftex.def)             Requested size: 446.9055pt x 67.10283pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
  []
 
-
-Overfull \hbox (28.56973pt too wide) in paragraph at lines 117--118
-\OT1/cmtt/m/n/12 in which Lecturers, Tutors and Students can discuss concepts c
-overed in class
- []
+[1 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Url.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 129.
 
 
-Overfull \hbox (16.21973pt too wide) in paragraph at lines 117--118
-\OT1/cmtt/m/n/12 in a more user friendly manner which is appealing to students;
- consequently
- []
-
-
-Overfull \hbox (34.74474pt too wide) in paragraph at lines 117--118
-\OT1/cmtt/m/n/12 this will deepen their understanding of the concepts and impro
-ve their overall
- []
-
-
-Overfull \hbox (10.04472pt too wide) in paragraph at lines 117--118
-\OT1/cmtt/m/n/12 This is achieved by introducing social networking elements suc
-h as tagging
- []
-
-
-Overfull \hbox (16.21973pt too wide) in paragraph at lines 117--118
-\OT1/cmtt/m/n/12 and gaming abilities such as earning points, because of these 
-introductions
- []
-
-
-Overfull \hbox (28.56973pt too wide) in paragraph at lines 117--118
-\OT1/cmtt/m/n/12 the system will not only encourage competitiveness but also pr
-ovide reporting
- []
-
-
-Overfull \hbox (16.21973pt too wide) in paragraph at lines 117--118
-\OT1/cmtt/m/n/12 functionalities which will indicate the performance of individ
-ual users and
- []
-
-[1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 126.
-
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 126.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
 
-<./Use_case_A.png, id=14, 1166.85938pt x 399.74344pt>
+<./Use_case_A.png, id=14, 929.72343pt x 350.05782pt>
 File: ./Use_case_A.png Graphic file (type png)
  <use ./Use_case_A.png>
-Package pdftex.def Info: ./Use_case_A.png used on input line 145.
-(pdftex.def)             Requested size: 446.9055pt x 153.0996pt.
+Package pdftex.def Info: ./Use_case_A.png used on input line 148.
+(pdftex.def)             Requested size: 446.9055pt x 168.26619pt.
 
-<./Use_case_B.png, id=16, 1032.85875pt x 541.27219pt>
+<./Use_case_B.png, id=16, 925.95938pt x 326.72063pt>
 File: ./Use_case_B.png Graphic file (type png)
  <use ./Use_case_B.png>
-Package pdftex.def Info: ./Use_case_B.png used on input line 146.
-(pdftex.def)             Requested size: 446.9055pt x 234.20436pt.
+Package pdftex.def Info: ./Use_case_B.png used on input line 149.
+(pdftex.def)             Requested size: 446.9055pt x 157.69156pt.
 
-<./Use_case_C.png, id=17, 1036.62282pt x 457.71pt>
+<./Use_case_C.png, id=17, 927.465pt x 148.30406pt>
 File: ./Use_case_C.png Graphic file (type png)
  <use ./Use_case_C.png>
-Package pdftex.def Info: ./Use_case_C.png used on input line 147.
-(pdftex.def)             Requested size: 446.9055pt x 197.3283pt.
+Package pdftex.def Info: ./Use_case_C.png used on input line 150.
+(pdftex.def)             Requested size: 446.9055pt x 71.4612pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--148
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
 
 [2 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Use_case_A.png>]
 [3 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Use_case_B.png> <C:/
 Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Use_case_C.png>]
-<./socialtag.jpg, id=27, 955.57pt x 575.14874pt>
+<./socialtag.jpg, id=28, 955.57pt x 575.14874pt>
 File: ./socialtag.jpg Graphic file (type jpg)
  <use ./socialtag.jpg>
-Package pdftex.def Info: ./socialtag.jpg used on input line 153.
+Package pdftex.def Info: ./socialtag.jpg used on input line 156.
 (pdftex.def)             Requested size: 446.9055pt x 268.98598pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--154
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
 
  []
 
-<./Use_Case_Diagram_RewardUser.jpg, id=28, 534.49687pt x 211.54031pt>
+<./Use_Case_Diagram_RewardUser.jpg, id=29, 534.49687pt x 211.54031pt>
 File: ./Use_Case_Diagram_RewardUser.jpg Graphic file (type jpg)
 
 <use ./Use_Case_Diagram_RewardUser.jpg>
 Package pdftex.def Info: ./Use_Case_Diagram_RewardUser.jpg used on input line 1
-57.
+60.
 (pdftex.def)             Requested size: 446.9055pt x 176.88245pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--158
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
 
  []
 
 [4 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/socialtag.jpg> <C:/U
 sers/Diana/Desktop/MiniProject/phase1/COS301Phase1/Use_Case_Diagram_RewardUser.
-jpg>] <./Activity_Diagram_UserManagement.jpg, id=32, 421.575pt x 177.66376pt>
+jpg>] <./Activity_Diagram_UserManagement.jpg, id=33, 421.575pt x 177.66376pt>
 File: ./Activity_Diagram_UserManagement.jpg Graphic file (type jpg)
 
 <use ./Activity_Diagram_UserManagement.jpg>
 Package pdftex.def Info: ./Activity_Diagram_UserManagement.jpg used on input li
-ne 162.
+ne 165.
 (pdftex.def)             Requested size: 446.9055pt x 188.34164pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
+Underfull \hbox (badness 10000) in paragraph at lines 163--166
 
  []
 
-<./Use_Case_Diagram_Vote.jpg, id=33, 448.67625pt x 196.48407pt>
+<./Use_Case_Diagram_Vote.jpg, id=34, 448.67625pt x 196.48407pt>
 File: ./Use_Case_Diagram_Vote.jpg Graphic file (type jpg)
 
 <use ./Use_Case_Diagram_Vote.jpg>
-Package pdftex.def Info: ./Use_Case_Diagram_Vote.jpg used on input line 167.
+Package pdftex.def Info: ./Use_Case_Diagram_Vote.jpg used on input line 170.
 (pdftex.def)             Requested size: 446.9055pt x 195.71606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--168
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
 
  []
 
 [5 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Activity_Diagram_Use
 rManagement.jpg> <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Use_Ca
-se_Diagram_Vote.jpg>] <./uthreads.jpg, id=37, 957.5775pt x 602.25pt>
+se_Diagram_Vote.jpg>] <./uthreads.jpg, id=38, 957.5775pt x 602.25pt>
 File: ./uthreads.jpg Graphic file (type jpg)
 
 <use ./uthreads.jpg>
-Package pdftex.def Info: ./uthreads.jpg used on input line 172.
+Package pdftex.def Info: ./uthreads.jpg used on input line 175.
 (pdftex.def)             Requested size: 446.9055pt x 281.07259pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--173
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
 
  []
 
-<./Activity_Diagram_CreateCategory.jpg, id=38, 645.91313pt x 313.9228pt>
+<./Activity_Diagram_CreateCategory.jpg, id=39, 645.91313pt x 313.9228pt>
 File: ./Activity_Diagram_CreateCategory.jpg Graphic file (type jpg)
 
 <use ./Activity_Diagram_CreateCategory.jpg>
 Package pdftex.def Info: ./Activity_Diagram_CreateCategory.jpg used on input li
-ne 176.
+ne 179.
 (pdftex.def)             Requested size: 446.9055pt x 217.20093pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--177
+Underfull \hbox (badness 10000) in paragraph at lines 177--180
 
  []
 
 [6 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/uthreads.jpg> <C:/Us
 ers/Diana/Desktop/MiniProject/phase1/COS301Phase1/Activity_Diagram_CreateCatego
-ry.jpg>] <./Activity_Diagram_Login.jpg, id=43, 383.18156pt x 243.15843pt>
+ry.jpg>] <./Activity_Diagram_Login.jpg, id=44, 383.18156pt x 243.15843pt>
 File: ./Activity_Diagram_Login.jpg Graphic file (type jpg)
 
 <use ./Activity_Diagram_Login.jpg>
-Package pdftex.def Info: ./Activity_Diagram_Login.jpg used on input line 184.
+Package pdftex.def Info: ./Activity_Diagram_Login.jpg used on input line 187.
 (pdftex.def)             Requested size: 446.9055pt x 283.61116pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--185
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
 
  []
 
-<./Activity_Diagram_RewardSystem.jpg, id=44, 440.39531pt x 271.76532pt>
+<./Activity_Diagram_RewardSystem.jpg, id=45, 440.39531pt x 271.76532pt>
 File: ./Activity_Diagram_RewardSystem.jpg Graphic file (type jpg)
 
 <use ./Activity_Diagram_RewardSystem.jpg>
 Package pdftex.def Info: ./Activity_Diagram_RewardSystem.jpg used on input line
- 188.
+ 191.
 (pdftex.def)             Requested size: 446.9055pt x 275.79118pt.
 
-<./Activity_Diagram_RewardUser.jpg, id=45, 468.24937pt x 315.42844pt>
+<./Activity_Diagram_RewardUser.jpg, id=46, 468.24937pt x 315.42844pt>
 File: ./Activity_Diagram_RewardUser.jpg Graphic file (type jpg)
 
 <use ./Activity_Diagram_RewardUser.jpg>
 Package pdftex.def Info: ./Activity_Diagram_RewardUser.jpg used on input line 1
-89.
+92.
 (pdftex.def)             Requested size: 446.9055pt x 301.06552pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--190
+Underfull \hbox (badness 10000) in paragraph at lines 189--193
 
  []
 
@@ -533,64 +497,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--190
 in.jpg> <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Activity_Diagra
 m_RewardSystem.jpg>] [8 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1
 /Activity_Diagram_RewardUser.jpg>]
-<./Use_Case_Diagram_UserManagement.jpg, id=52, 347.79938pt x 304.13625pt>
+<./Use_Case_Diagram_UserManagement.jpg, id=53, 347.79938pt x 304.13625pt>
 File: ./Use_Case_Diagram_UserManagement.jpg Graphic file (type jpg)
 
 <use ./Use_Case_Diagram_UserManagement.jpg>
 Package pdftex.def Info: ./Use_Case_Diagram_UserManagement.jpg used on input li
-ne 194.
+ne 197.
 (pdftex.def)             Requested size: 446.9055pt x 390.81985pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--195
+Underfull \hbox (badness 10000) in paragraph at lines 195--198
 
  []
 
 [9 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Use_Case_Diagram_Use
 rManagement.jpg>]
-<./Activity_Diagram_UserLevel.jpg, id=56, 347.79938pt x 304.13625pt>
+<./Activity_Diagram_UserLevel.jpg, id=57, 347.79938pt x 304.13625pt>
 File: ./Activity_Diagram_UserLevel.jpg Graphic file (type jpg)
 
 <use ./Activity_Diagram_UserLevel.jpg>
-Package pdftex.def Info: ./Activity_Diagram_UserLevel.jpg used on input line 19
-9.
+Package pdftex.def Info: ./Activity_Diagram_UserLevel.jpg used on input line 20
+2.
 (pdftex.def)             Requested size: 446.9055pt x 390.81985pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--200
+Underfull \hbox (badness 10000) in paragraph at lines 200--203
 
  []
 
 [10 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/Activity_Diagram_Us
-erLevel.jpg>] <./final_domain_model_a.jpg, id=60, 1271.75125pt x 1040.88875pt>
-File: ./final_domain_model_a.jpg Graphic file (type jpg)
+erLevel.jpg>] <./17_Activity.jpg, id=61, 694.595pt x 846.16125pt>
+File: ./17_Activity.jpg Graphic file (type jpg)
 
-<use ./final_domain_model_a.jpg>
-Package pdftex.def Info: ./final_domain_model_a.jpg used on input line 204.
-(pdftex.def)             Requested size: 446.9055pt x 365.77773pt.
+<use ./17_Activity.jpg>
+Package pdftex.def Info: ./17_Activity.jpg used on input line 207.
+(pdftex.def)             Requested size: 446.9055pt x 544.44641pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--208
 
  []
 
-[11 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/final_domain_model_
+[11 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/17_Activity.jpg>]
+<./final_domain_model_a.jpg, id=65, 1271.75125pt x 1040.88875pt>
+File: ./final_domain_model_a.jpg Graphic file (type jpg)
+
+<use ./final_domain_model_a.jpg>
+Package pdftex.def Info: ./final_domain_model_a.jpg used on input line 212.
+(pdftex.def)             Requested size: 446.9055pt x 365.77773pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
+
+ []
+
+[12 <C:/Users/Diana/Desktop/MiniProject/phase1/COS301Phase1/final_domain_model_
 a.jpg>] (C:\Users\Diana\Desktop\MiniProject\phase1\COS301Phase1\Group7B.aux) ) 
 Here is how much of TeX's memory you used:
- 1771 strings out of 493921
- 23488 string characters out of 3147282
+ 1777 strings out of 493921
+ 23608 string characters out of 3147282
  75885 words of memory out of 3000000
- 5056 multiletter control sequences out of 15000+200000
- 10434 words of font info for 37 fonts, out of 3000000 for 9000
+ 5062 multiletter control sequences out of 15000+200000
+ 10097 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,4n,21p,345b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,4n,21p,359b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmtt12.pfb>
-Output written on Group7B.pdf (12 pages, 1052204 bytes).
+s/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Group7B.pdf (13 pages, 989100 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
