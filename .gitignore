@@ -1,0 +1,9 @@
+*.synctex.gz
+*.toc
+*.aux
+*.out
+*.log
+*.bak
+~$*
+Thumbs.db
+*.tmp
