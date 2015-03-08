@@ -45,31 +45,37 @@ The system should be able to be accessed via all major browsers, namely Internet
 \subsubsection{System access channels}
 \subsubsection{Integration channels}
 %Access Channel Requirements to be added - Abrie & Matthew
+
+
 \subsection{Quality Requirements}
 %Quality Requirements to be added - Keagan & Maret
-\subsubsection{Scalability}
-The software system must be able to handle the registration and data of all the users registered on the LDAP server. 
-If several users attempt to do the same action simultaneously, like commenting in a thread, the actions must appear to happen one at a time. 
-The system must not have a maximum or minimum amount of users that may use the system at a time
-\subsubsection{Performance requirement}
-The system must have a fast response time. The system must be able to handle all the users and not become slower.
-\subsubsection{Maintainability} 
-The system must be easy to update and maintain.
-\subsubsection{Reliability and Availability} 
-The system must be usable on any (modern) web browser and operating system.
-\subsubsection{Security}
-All the users information must be secure and only be visible or editable for users with the required permissions. All the data must be unaccesable for non-users.
-\subsubsection{Monitorability and Auditability}
-A log of all user activity must be available for the adminitration. The information that must be available for auditability are: users and their details, posts, deleted messages, and all activities.
-\subsubsection{Testability}
+\begin{description}
+  \item[Scalability:] 
+        The software system must be able to handle the registration and data of all the users registered on the LDAP server. 
+       If several users attempt to do the same action simultaneously, like commenting in a thread, the actions must appear to happen one at a time. 
+      The system must not have a maximum or minimum amount of users that may use the system at a time
+  \item[Performance requirement:]
+      The system must have a fast response time. The system must be able to handle all the users and not become slower.
+  \item[Maintainability:] 
+      The system must be easy to update and maintain.
+  \item[Reliability and Availability:]
+      The system must be usable on any (modern) web browser and operating system.
+  \item[Security:]
+      All the users information must be secure and only be visible or editable for users with the required permissions. All the data must be unaccesable for non-users.
+  \item[Monitorability and Auditability:]
+      A log of all user activity must be available for the adminitration. The information that must be available for auditability are: users and their details, posts, deleted messages, and all activities.
+  \item[Testability:]
 
-\subsubsection{Usability}
-The Buzz sytem must be easy to use. It can make use of UI metaphors like a having a "post-it" symbol for the post operation or an envelope for the messages link.
-The most common used operations must perform very quickly. The system must be easy to learn so new users can adapt to it without help. 
-The validation and error messages must be clear and understandable.
-\subsubsection{Integrability} 
-The system mut be integrated with the LDAP server. 
-All the data on the server like names, photos registered modules, etc are used in the buzz system. 
+  \item[Usability:]
+      The Buzz sytem must be easy to use. It can make use of UI metaphors like a having a "post-it" symbol for the post operation or an envelope for the messages link.
+      The most common used operations must perform very quickly. The system must be easy to learn so new users can adapt to it without help. 
+      The validation and error messages must be clear and understandable.
+  \item[Integrability:]
+      The system mut be integrated with the LDAP server. 
+      All the data on the server like names, photos registered modules, etc are used in the buzz system. 
+\end{description}
+
+
 
 \subsection{Integration Requirements}
 %Integration Requirements to be added - Patience & Hlavutelo
@@ -106,6 +112,21 @@ The architecture constraints were indicated in the briefing document and the fol
   \item[$\bullet$] CSS (Cascading Style-sheet):
   This is the coding platform we are going to use to make the website more attractive and to fill the emptiness of the website.
 \end{description}
+
+\section{Architectural patterns or styles}
+%Architectural patterns or styles to be added
+
+\section{Architectural tactics or strategies}
+%Architectural tactics or strategies to be added
+
+\section{Use of reference architectures and frameworks}
+%Use of reference architectures and frameworks to be added
+
+\section{Access and integration channels}
+%Access and integration channels to be added
+
+\section{Technologies}
+%Technologies to be added
 
 \section{Conclusion}
 %Conclusion to be added
