@@ -237,17 +237,23 @@ Since the user base of the Buzz system can be expected to grow to quite a large 
 \section{Use of reference architectures and frameworks}
 %Use of reference architectures and frameworks to be added
 There exist many reference architectures and/or frameworks which we can incorporate and use in our project. The API's already exist and can mainly be used as simple plugins.
-
+\\ \\
 Java-EE, which is a Layered Reference Architecture would be best suited for the current system, because it comprehensively includes a majority of our Quality Requirements that we want to achieve (like Scalability, Security etc).
+\\ \\
+Apache Tapestry (\url{http://tapestry.apache.org/}) is a "Component oriented framework for creating dynamic, robust, highly scalable web applications in Java." and can thus be used to address quite a few of the Quality Requirements. It also separates java from html code, making the implementation thereof that much easier and more effective to work with.
+\\ \\
+Other frameworks and API's follow:
 
-\subsection{Check for Plagiarism}
+\begin{description}
+\item[$\bullet$ Check for Plagiarism]
 Plagiarism-Checker (\url{https://github.com/architshukla/Plagiarism-Checker}) searches online by using Google Search API's to address queries. The URL you get from the query are checked for similarities with the information you are checking. Results are stored in an output text file. Checking user posts for plagiarism is of cardinal value, since it helps grow an air of responsible sharing in the users.
-\subsection{Highlighting Syntax}
+\item[$\bullet$ Highlighting Syntax]
 SyntaxHighlighter 3.0.83 (\url{http://alexgorbatchev.com/SyntaxHighlighter/}) is a self-contained syntax highlighter specifically for code. It is used in, among others, Apache, Mozilla, Wordpress and Freshbooks. It is developed in Javascript and works no matter what kind of server you are running. Using this plugin can ease the process of sharing code in the discussion area and help see what is part of syntax and what is not.
-\subsection{Profanity Filter}
+\item[$\bullet$ Profanity Filter]
 A profanity filter is a must to maintain order and control in an online discussion area. Without it, users can post what they like, when they like without any sort of service or function prohibiting their possibly damaging posts. PurgoMalum (\url{http://www.purgomalum.com/}) is a free web service for filtering content. It can filter out curse words, other obscenities and general unwanted words as well. WebPurify (\url{http://www.webpurify.com/}) can also be used - it is much more versatile than PurgoMalum, as it can moderate images and videos as well, at a fee of course.
-\subsection{Font Sizes according to screen size}
+\item[$\bullet$ Font Sizes according to screen size]
 The trouble with font on webpages is usually flexibility and scalability when it comes to displaying your webpage headlines on different screen sizes. Herein lies the absolute marvel that is FitText (\url{http://fittextjs.com/}). This plugin is an open-source project available on github, that makes headline font sizes scalable to different screen types and sizes.
+\end{description}
 
 \section{Technologies}
 %Technologies to be added
@@ -262,6 +268,7 @@ Here is the technologies the client asked for and that we are going to use.
   \item[$\bullet$] HTML (Hypertext Mark-up Language)
   \item[$\bullet$] AJAX (Asynchronous JavaScript and XML)
   \item[$\bullet$] CSS (Cascading Style-sheet)
+  \item[$\bullet$] Apache Maven (Software Project Management and Comprehension Tool)
 
 \end{description}
 \section{Conclusion}
