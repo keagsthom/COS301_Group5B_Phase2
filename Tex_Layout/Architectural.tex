@@ -81,7 +81,7 @@ Date & Version & Description\\
 
 \subsection{Architectural Scope}
 \begin{description}
-\item[$\bullet$Concurrent processing environment:]
+\item[$\bullet$ Concurrent processing environment:]
 
 Buzz will have to run on a multi-threaded environment, we need multiple users to be connected and exchange messages concurrently. This has to run on one or more concurrent managers.\\\\
 Buzz will run on a Cluster environment:\\
@@ -93,24 +93,24 @@ This provides the following benefits to Buzz system:
 \item[$\bullet$] Fault Tolerance: when other nodes/threads fail, the system should continue running. It is easier to administer the entire system and concurrent managers.\\
 \end{description}
 
-\item[$\bullet$Temporary or permanent storage environment:]
+\item[$\bullet$ Temporary or permanent storage environment:]
 
 Temporary storage environment: Concerning user data, all information will be cached into the browser. UserID, password, etc can all be stored in cookies.\\
 Permanent storage environment: Database and use of flash drives, this is to store system images.\\
 
-\item[$\bullet$Scheduling:]
+\item[$\bullet$ Scheduling:]
 
 After some intervals the system must be able to store its image to avoid data loss in case of power shutdown or other causes. This could be done, or stored in some non-volatile storage, could be in a hard drive. After system reboot all the data can be simply recovered whenever there occurs any problem.\\
 
-\item[$\bullet$Integration environment:]
+\item[$\bullet$ Integration environment:]
 
 For a basic integration environment, client-server architecture would be deployed. System management server would provide single interface through which administrators can explore and manage metadata repositories. We can manage data with some studio (actual environment where data will be stored and integrated with other information) which provides a single point of control user and system data. With appropriate access and integration channels the studio and system management would communicate through multiple servers.\\
 
-\item[$\bullet$Persistence infrastructure:]
+\item[$\bullet$ Persistence infrastructure:]
 
 When system shut-down, Buzz state must be maintain with persistence infrastructure. With the Database management systems (DBMS), we can achieve persistence and also services such as queries, auditing and access control. Persistence can also be achieve with system images: after some scheduling system image must be stored. State changes made to a system after its last image was saved are lost in the case of a system failure or shut-down. There are other persistence techniques that can be well integrated with Buzz, such as journals and dirty writes.\\
 
-\item[$\bullet$Providing a reporting infrastructure:]
+\item[$\bullet$ Providing a reporting infrastructure:]
 
 All global reports must be stored in a file system, created with JAVA programming language. This would be done with the created user interface (UI). Alternatively, depending on the integration channels and their protocols all reports that need to be generated can be store in the integrated database.\\
 
@@ -135,35 +135,34 @@ In the scope of this project, no systems will require access to Buzz. However, w
 \subsubsection{Integration channels}
 The system must be able to integrate with the University's CS-LDAP (Light-Weight Directory Access Protocol) server. As well as the server which will store the uploaded media, such as images, videos, PDFs and the like. The system will therefor need to handle the LDAP, HTTP, SMTP (or other email protocols) and SMS protocols. The Buzz system will be integrated into the CS website such that when a user logs into the CS website, they will also be logged into Buzz System automatically.
 
-
 \subsection{Quality Requirements}
 %Quality Requirements to be added - Keagan & Maret
 \begin{description}
-  \item[Scalability:] 
+  \item[$\bullet$ Scalability:] 
         The software system must be able to handle the registration and data of all the users registered on the LDAP server. 
        If several users attempt to do the same action simultaneously, like commenting in a thread, the actions should appear to happen one at a time. 
       The system must not have a maximum or minimum amount of users that may use the system at a time.
-  \item[Performance requirement:]
+  \item[$\bullet$ Performance requirement:]
       The system must have a fast response time. The system must be able to handle all the users and not slow down.
-  \item[Maintainability:] 
+  \item[$\bullet$ Maintainability:] 
       The system must be easy to update and maintain.
-  \item[Reliability and Availability:]
+  \item[$\bullet$ Reliability and Availability:]
       The system must be usable on any modern web browser and operating system.
-  \item[Security:]
+  \item[$\bullet$ User Security:]
       All the user's information must be secure and only be visible or editable for users with the required permissions. All the data must be inaccessible for non-users.
-  \item[Monitorability and Auditability:]
+  \item[$\bullet$ General Security:]
+The integration interface must be secure, i.e. any information obtained from the LDAP server about any user should be used in the Buzz system only.
+  \item[$\bullet$ Monitorability and Auditability:]
       A log of all user activity must be available for the administration. The information that must be available for auditability are: users and their details, posts, deleted messages, and all actions performed.
-  \item[Testability:]
+  \item[$\bullet$ Testability:]
       An interface must be available to certain staff of the system to enable extreme case testing of the system's functionality, and the actual user interface must be thoroughly tested to decrease the likelihood of a user finding a fault. In order for these two types of testing to be conducted effectively, the system must be made as controllable and observable as possible.
-  \item[Usability:]
+  \item[$\bullet$ Usability:]
       The Buzz system must be easy to use. It can make use of UI metaphors like a having a "post-it" symbol for the post operation or an envelope for the messages link.
       The most common used operations must perform very quickly. The system must be easy to learn so new users can adapt to it without help. 
       The validation and error messages must be clear and understandable.
-  \item[Integrability:]
+  \item[$\bullet$ Integrability:]
       The system must be integrated with the LDAP server. 
       All the data on the server like names, photos registered modules, etc. are used in the buzz system. 
-\item[Security:]
-The integration interface must be secure, i.e. any information obtained from the LDAP server about any user should be used in the Buzz system only .
 \end{description}
 \subsection{Architecture Constraints}
 %Architecture Constraints to be added - Johan & Latham
@@ -271,11 +270,6 @@ Here is the technologies the client asked for and that we are going to use.
   \item[$\bullet$] Apache Maven (Software Project Management and Comprehension Tool)
 
 \end{description}
-\section{Conclusion}
-%Conclusion to be added
-
-\section{References}
-%References to be added
 
 \end{document}
 
