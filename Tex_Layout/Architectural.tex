@@ -68,6 +68,7 @@ Date & Version & Description\\
 
 \section{Introduction}
 %Intro to be added
+This is Phase 2 of the buzz-system we are going to as specified by the client. This document goes in more depth on some specifications that are required.
 
 \subsection{Purpose}
 %Purpose to be added
@@ -171,31 +172,31 @@ The architecture constraints were indicated in the briefing document and the fol
 
 \begin{description}
   \item[$\bullet$] Linux (Operating System):
-  Linux is more stable than windows on servers. It is free and does not need added costs. Thus it makes a good OS to use. There is a lot of free software that runs on it, but there is also software that only runs on Windows. The client wishes to use Linux, an open source OS, does not have that great customer service, but the free software and the abundance thereof makes up for it. 
+  Linux is more stable than windows on servers. It is free and does not need added costs. Thus it makes a good OS to use. There is a lot of free software that runs on it, but there is also software that only runs on Windows. The client wishes to use Linux, an open source OS, does not have that great customer service, but the free software and the abundance thereof makes up for it. The end-product should also be able do run on small devices, so it must be lightweight in resource usage.
   
   \item[$\bullet$] Git (Version Control System):
-  Git is good for group projects and information share. It can show the progress and the group's efforts in completing the project. It is not always easy to use, sometimes it can break and work need to be restored from a previous version, and not all people know how to use it.
+  Git is good for group projects and information share. It can show the progress and the group's efforts in completing the project. It is not always easy to use, sometimes it can break and work need to be restored from a previous version, and not all people know how to use it which could lead to faults in the development of and or slowing down progress.
   
   \item[$\bullet$] JavaEE (Java Platform Enterprise Edition):
-  For server programming Java EE would suffice, it is reliable and easier to use. Even though it is a bit slower and is resource intensive. It makes a good framework that incorporates JPA,  JPQL and JSF.
+  For server programming Java EE would suffice, it is reliable and easier to use. Even though it is a bit slower and is resource intensive. It makes a good framework that incorporates JPA,  JPQL and JSF. Thus development can only be done on capable machines and not things like tablets or phones.
   
-  \item[$\bullet$]JPA (Java Persistence AP):
-  JPA uses JPQL so it would be better to use this, it operates against entity object rather than with database tables. Most of the developers have not yet practised with this technology which leads to inexperience with this. 
+  \item[$\bullet$]JPA (Java Persistence API):
+  JPA uses JPQL so it would be better to use this, it operates against entity object rather than with database tables. Most of the developers have not yet practised with this technology which leads to inexperience with this. The development of ht UI will be somewhat straining and therefore a capable machines must also be used.
   
   \item[$\bullet$] JPQL (Java Persistence query language):
-  Is used to make queries against entities stored in a relational database and additionally retrieve objects from the database on the server. It would be used to retrieve user data and etc. Most of the developers have not yet practised with this technology which leads to inexperience with this. 
+  Is used to make queries against entities stored in a relational database and additionally retrieve objects from the database on the server. It would be used to retrieve user data and etc. Most of the developers have not yet practised with this technology which leads to inexperience with this. Databases can be big, but the amount of data through queries won't be too high, thus if internet connection is available, small devices could use this indirectly through the product.
   
   \item[$\bullet$] JSF ( Java Server Faces):
-  Is a Java specification for building component-based UI for web applications and exposing them as server side Polyfills. This works with AJAX. Most of the developers have not yet practised with this technology which leads to inexperience with this. 
+  Is a Java specification for building component-based UI for web applications and exposing them as server side Polyfills. This works with AJAX. Most of the developers have not yet practised with this technology which leads to inexperience with this. In the development phase this is resource intensive thus again capable machines will be needed. The end product should be able to be supported on small devices and Operating Systems.
   
   \item[$\bullet$] HTML (Hypertext Mark-up Language):
-  This is going to be code that has to be generated for the website where the user can navigate through, the browser takes this code, interprets it and give a UI for the user. 
+  This is going to be code that has to be generated for the website where the user can navigate through, the browser takes this code, interprets it and give a UI for the user if it is a web-page (on a website). This is supported on almost all devices which make use of the internet.
   
   \item[$\bullet$] AJAX (Asynchronous JavaScript and XML):
-  It is easier to use, rather than having to make our own function for everything. This is client side processing so that we don’t hassle the servers with little tests.
+  It is easier to use, rather than having to make our own function for everything. This is client side processing so that we don’t hassle the servers with little tests and leave only queries and logging validation to the server. Thus internet usage is made less, and most of the work can be done on the device/machine.
   
   \item[$\bullet$] CSS (Cascading Style-sheet):
-  This is the coding platform we are going to use to make the website more attractive and to fill the emptiness of the website.
+  This is the coding platform we are going to use to make the website more attractive and to fill the emptiness of the website if need be. Otherwise JSF would take the responsibility of this.
 \end{description}
 
 \section{Architectural patterns or styles}
