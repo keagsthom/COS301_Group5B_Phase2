@@ -81,7 +81,7 @@ Date & Version & Description\\
 
 \subsection{Architectural Scope}
 \begin{description}
-\item[$\bullet$] Concurrent processing environment:
+\item[$\bullet$Concurrent processing environment:]
 
 Buzz will have to run on a multi-threaded environment, we need multiple users to be connected and exchange messages concurrently. This has to run on one or more concurrent managers.\\\\
 Buzz will run on a Cluster environment:\\
@@ -89,18 +89,32 @@ Multiple computers will share a common computer server. The cluster that could p
 This provides the following benefits to Buzz system:
 \begin{description}
 \item[$\bullet$] High performance: improve concurrent processing throughput.
-\item[$\bullet$] Adaptability: the ability to integrate with platform-specific batch queue and load-balancing systems to maximize concurrent processing performance on a particular platform.
+\item[$\bullet$]Adaptability: the ability to integrate with platform-specific batch queue and load-balancing systems to maximize concurrent processing performance on a particular platform.
 \item[$\bullet$] Fault Tolerance: when other nodes/threads fail, the system should continue running. It is easier to administer the entire system and concurrent managers.\\
 \end{description}
 
-\item[$\bullet$] Temporary or permanent storage environment:
+\item[$\bullet$Temporary or permanent storage environment:]
 
 Temporary storage environment: Concerning user data, all information will be cached into the browser. UserID, password, etc can all be stored in cookies.\\
 Permanent storage environment: Database and use of flash drives, this is to store system images.\\
 
-\item[$\bullet$] Scheduling:
+\item[$\bullet$Scheduling:]
 
-After some intervals the system must be able to store its image to avoid data loss in case of power shutdown or other causes. This could be done, or stored in some non-volatile storage, could be in a hard drive. After system reboot all the data can be simply recorvered whenever there occurs any problem.\\
+After some intervals the system must be able to store its image to avoid data loss in case of power shutdown or other causes. This could be done, or stored in some non-volatile storage, could be in a hard drive. After system reboot all the data can be simply recovered whenever there occurs any problem.\\
+
+\item[$\bullet$Integration environment:]
+
+For a basic integration environment, client-server architecture would be deployed. System management server would provide single interface through which administrators can explore and manage metadata repositories. We can manage data with some studio (actual environment where data will be stored and integrated with other information) which provides a single point of control user and system data. With appropriate access and integration channels the studio and system management would communicate through multiple servers.\\
+
+\item[$\bullet$Persistence infrastructure:]
+
+When system shut-down, Buzz state must be maintain with persistence infrastructure. With the Database management systems (DBMS), we can achieve persistence and also services such as queries, auditing and access control. Persistence can also be achieve with system images: after some scheduling system image must be stored. State changes made to a system after its last image was saved are lost in the case of a system failure or shut-down. There are other persistence techniques that can be well integrated with Buzz, such as journals and dirty writes.\\
+
+\item[$\bullet$Providing a reporting infrastructure:]
+
+All global reports must be stored in a file system, created with JAVA programming language. This would be done with the created user interface (UI). Alternatively, depending on the integration channels and their protocols all reports that need to be generated can be store in the integrated database.\\
+
+XML - this can be used to store temporary reports that need to be delivered in a certain time interval. This reduces access time and easy to maintain.\\
 
 \end{description}
 
